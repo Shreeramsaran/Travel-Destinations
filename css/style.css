@@ -79,7 +79,7 @@
 }
 
 .background{
-    background: url('/images/pexels-photo-1450340.jpeg') no-repeat center center;
+    background: url('/images/bg.jpeg') no-repeat center center;
     background-size: cover;
     opacity: 1;
 }
@@ -120,13 +120,23 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 40vh;
+    height: 30vh;
 }
 .box-2-2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+.box-2-2 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-2-2 img{
+    width: 50%;
+    margin: 20px;
 }
 .box-2-3{
     margin: 40px auto;
@@ -135,4 +145,5 @@ p{
 .section-3{
     display: flex;
     align-items: center;
+
 }
