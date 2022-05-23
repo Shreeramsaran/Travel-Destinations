@@ -131,3 +131,8 @@ p{
 .box-2-3{
     margin: 40px auto;
 }
+
+.section-3{
+    display: flex;
+    align-items: center;
+}
