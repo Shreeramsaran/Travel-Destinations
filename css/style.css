@@ -16,6 +16,7 @@ html{
     background-color: rgb(108, 103, 103);
     color: white;
 }
+
 .left-menu{
      display: flex;
      width: 70%;
@@ -76,9 +77,11 @@ html{
     padding: 15px 20px;
 }
 .btn:hover{
-    background-color: rgb(177, 58, 14);
-    color: black;
+    background-color: rgb(243, 81, 22);
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    font-size: 15px;
+    color: black;
 }
 
 .background{
@@ -262,7 +265,9 @@ p{
     background-size: cover;
     background-blend-mode: darken;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
  }
 
